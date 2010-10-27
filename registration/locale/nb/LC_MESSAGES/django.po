@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-27 14:18+0200\n"
+"PO-Revision-Date: 2010-10-27 14:18+0200\n"
+"Last-Translator: Jon Lønne <jon at funkbit dot no>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:23
+msgid "Activate users"
+msgstr "Aktiver brukere"
+
+#: admin.py:43
+msgid "Re-send activation emails"
+msgstr "Send ny aktiveringsmail"
+
+#: forms.py:35
+msgid "Username"
+msgstr "Brukernavn"
+
+#: forms.py:36
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "Verdien kan kun bestå av bokstaver, tall og understreker."
+
+#: forms.py:39
+msgid "Email address"
+msgstr "E-postadresse"
+
+#: forms.py:41
+msgid "Password"
+msgstr "Passord"
+
+#: forms.py:43 templates/registration/password_change_form.html:36
+msgid "Password (again)"
+msgstr "Passord (gjenta)"
+
+#: forms.py:55
+msgid "A user with that username already exists."
+msgstr "Brukernavnet er registrert av en annen bruker."
+
+#: forms.py:67
+msgid "The two password fields didn't match."
+msgstr "De to passordfeltene er ikke like."
+
+#: forms.py:78
+msgid "I have read and agree to the Terms of Service"
+msgstr "Jeg har lest og godtar brukerbetingelsene."
+
+#: forms.py:79
+msgid "You must agree to the terms to register"
+msgstr "Du må godta betingelsene for å registrere deg"
+
+#: forms.py:95
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr "Denne e-postadressen er allerede registrert. Vennligst oppgi en annen "
+"e-postadresse."
+
+#: forms.py:122
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
+msgstr "Registrering med en gratis e-postadresse er ikke tillatt. Vennligst "
+"oppgi en annen e-postadresse."
+
+#: models.py:168
+msgid "user"
+msgstr "bruker"
+
+#: models.py:169
+msgid "activation key"
+msgstr "aktiveringsnøkkel"
+
+#: models.py:174
+msgid "registration profile"
+msgstr "registrasjonsprofil"
+
+#: models.py:175
+msgid "registration profiles"
+msgstr "registrasjonsprofiler"
+
+#: templates/registration/activate.html:4
+#: templates/registration/activate.html:9
+msgid "Activation complete"
+msgstr "Aktivering fullført"
+
+#: templates/registration/activate.html:4
+#: templates/registration/activate.html:15
+msgid "Activation problem"
+msgstr "Problem med aktivering"
+
+#: templates/registration/activate.html:12
+#, python-format
+msgid ""
+"Activation complete! You may now <a href=\"%(login_url)s\">login</a> using "
+"the username and password you set at registration."
+msgstr "Aktivering fullført! Du kan nå <a href=\"%(login_url)s\">logge inn</a> "
+"med brukernavn og passord du registrerte deg med."
+
+#: templates/registration/activate.html:17
+msgid ""
+"Sorry, it seems that your activation key is invalid. Please check the url "
+"again."
+msgstr "Beklager, det ser ut til at aktiveringsnøkkelen er ugyldig. Vennligst "
+"kontroller adressen igjen."
+
+#: templates/registration/activation_email.txt:1
+#, python-format
+msgid ""
+"Welcome to %(site_name)s!\n"
+"\n"
+"You (or someone pretending to be you) have asked to register an account at \n"
+"%(site_name)s. If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+"\n"
+"To activate this account, please click the following link within the next \n"
+"%(expiration_days)s days:\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:12
+#, python-format
+msgid ""
+"\n"
+"Sincerely,\n"
+"%(site_name)s Management"
+msgstr ""
+
+#: templates/registration/activation_email_subject.txt:1
+#, python-format
+msgid "Activate your account at %(site_name)s"
+msgstr ""
+
+#: templates/registration/login.html:4 templates/registration/login.html:7
+#: templates/registration/login.html:35
+#: templates/registration/password_reset_complete.html:11
+msgid "Log in"
+msgstr "Logg inn"
+
+#: templates/registration/login.html:39
+msgid "Forgotten your password?"
+msgstr "Glemt passordet ditt?"
+
+#: templates/registration/logout.html:4 templates/registration/logout.html:7
+msgid "Logged out"
+msgstr "Logget ut"
+
+#: templates/registration/logout.html:9
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Takk for at du valgte å bruke kvalitetstid på nettstedet i dag."
+
+#: templates/registration/logout.html:11
+msgid "Log in again"
+msgstr "Logg inn igjen"
+
+#: templates/registration/password_change_done.html:4
+#: templates/registration/password_change_done.html:7
+msgid "Password change successful"
+msgstr "Passord endret"
+
+#: templates/registration/password_change_done.html:9
+msgid "Your password was changed."
+msgstr "Ditt passord ble endret."
+
+#: templates/registration/password_change_form.html:4
+#: templates/registration/password_change_form.html:7
+msgid "Password change"
+msgstr "Endre passord"
+
+#: templates/registration/password_change_form.html:9
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: templates/registration/password_change_form.html:16
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/registration/password_change_form.html:24
+msgid "Old password"
+msgstr "Gammelt passord"
+
+#: templates/registration/password_change_form.html:30
+msgid "New password"
+msgstr "Nytt passord"
+
+#: templates/registration/password_change_form.html:43
+#: templates/registration/password_reset_confirm.html:21
+msgid "Change my password"
+msgstr "Endre passordet mitt"
+
+#: templates/registration/password_reset_complete.html:4
+#: templates/registration/password_reset_complete.html:7
+msgid "Password reset complete"
+msgstr "Passord nullstilt"
+
+#: templates/registration/password_reset_complete.html:9
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Passordet ditt er satt. Du kan nå logge inn."
+
+#: templates/registration/password_reset_confirm.html:4
+#: templates/registration/password_reset_form.html:4
+#: templates/registration/password_reset_form.html:7
+msgid "Password reset"
+msgstr "Nullstill passord"
+
+#: templates/registration/password_reset_confirm.html:10
+msgid "Enter new password"
+msgstr "Oppgi nytt passord"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Venligst oppgi ditt nye passord to ganger, for å sikre at du oppgir det "
+"korrekt."
+
+#: templates/registration/password_reset_confirm.html:16
+msgid "New password:"
+msgstr "Nytt passord:"
+
+#: templates/registration/password_reset_confirm.html:19
+msgid "Confirm password:"
+msgstr "Gjenta nytt passord:"
+
+#: templates/registration/password_reset_confirm.html:26
+msgid "Password reset unsuccessful"
+msgstr "Passordet ble ikke nullstilt"
+
+#: contrib/admin/templates/registration/password_reset_confirm.html:28
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Nullstillingslinken er ugyldig, kanskje fordi den allerede har vært brukt. "
+"Vennligst nullstill passordet ditt på nytt."
+
+#: templates/registration/password_reset_done.html:4
+#: templates/registration/password_reset_done.html:8
+msgid "Password reset successful"
+msgstr "Passordet er nullstilt"
+
+#: templates/registration/password_reset_done.html:10
+msgid ""
+"We've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+"Vi har sendt deg en e-post med instruksjoner for nullstilling av passord. Du "
+"bør motta den om kort tid."
+
+
+#: templates/registration/password_reset_email.html:2
+msgid "You're receiving this e-mail because you requested a password reset"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:3
+#, python-format
+msgid "for your user account at %(site_name)s"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:5
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:9
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:11
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:13
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:9
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+"Glemt passordet ditt? Oppgi e-postadressen din under, så sender vi deg en e-"
+"post med instruksjoner for nullstilling av passord."
+
+#: templates/registration/password_reset_form.html:15
+msgid "E-mail address:"
+msgstr "E-postadresse:"
+
+#: templates/registration/password_reset_form.html:17
+msgid "Reset my password"
+msgstr "Nullstill mitt passord"
+
+#: templates/registration/registration_complete.html:4
+#: templates/registration/registration_complete.html:7
+msgid "Activation email sent"
+msgstr "Aktiveringsmail sendt"
+
+#: templates/registration/registration_complete.html:9
+msgid ""
+"An activation email has been sent.  Please check your email and click on the "
+"link to activate your account."
+msgstr "Vi har sendt en e-post med aktiveringslink. Vennligst trykk på linken "
+"i e-posten for å aktivere din konto."
+
+#: templates/registration/registration_form.html:4
+#: templates/registration/registration_form.html:7
+msgid "Register"
+msgstr "Registrer"
+
+#: templates/registration/registration_form.html:38
+msgid "Create"
+msgstr "Opprett"
