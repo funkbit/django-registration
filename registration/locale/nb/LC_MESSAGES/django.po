@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-27 14:18+0200\n"
-"PO-Revision-Date: 2010-10-27 14:18+0200\n"
+"PO-Revision-Date: 2010-11-01 15:58+0100\n"
 "Last-Translator: Jon Lønne <jon at funkbit dot no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -63,15 +63,17 @@ msgstr "Du må godta betingelsene for å registrere deg"
 msgid ""
 "This email address is already in use. Please supply a different email "
 "address."
-msgstr "Denne e-postadressen er allerede registrert. Vennligst oppgi en annen "
-"e-postadresse."
+msgstr ""
+"Denne e-postadressen er allerede registrert. Vennligst oppgi en annen e-"
+"postadresse."
 
 #: forms.py:122
 msgid ""
 "Registration using free email addresses is prohibited. Please supply a "
 "different email address."
-msgstr "Registrering med en gratis e-postadresse er ikke tillatt. Vennligst "
-"oppgi en annen e-postadresse."
+msgstr ""
+"Registrering med en gratis e-postadresse er ikke tillatt. Vennligst oppgi en "
+"annen e-postadresse."
 
 #: models.py:168
 msgid "user"
@@ -91,6 +93,8 @@ msgstr "registrasjonsprofiler"
 
 #: templates/registration/activate.html:4
 #: templates/registration/activate.html:9
+#: templates/registration/activation_complete.html:4
+#: templates/registration/activation_complete.html:7
 msgid "Activation complete"
 msgstr "Aktivering fullført"
 
@@ -100,18 +104,21 @@ msgid "Activation problem"
 msgstr "Problem med aktivering"
 
 #: templates/registration/activate.html:12
+#: templates/registration/activation_complete.html:10
 #, python-format
 msgid ""
 "Activation complete! You may now <a href=\"%(login_url)s\">login</a> using "
 "the username and password you set at registration."
-msgstr "Aktivering fullført! Du kan nå <a href=\"%(login_url)s\">logge inn</a> "
-"med brukernavn og passord du registrerte deg med."
+msgstr ""
+"Aktivering fullført! Du kan nå <a href=\"%(login_url)s\">logge inn</a> med "
+"brukernavn og passord du registrerte deg med."
 
 #: templates/registration/activate.html:17
 msgid ""
 "Sorry, it seems that your activation key is invalid. Please check the url "
 "again."
-msgstr "Beklager, det ser ut til at aktiveringsnøkkelen er ugyldig. Vennligst "
+msgstr ""
+"Beklager, det ser ut til at aktiveringsnøkkelen er ugyldig. Vennligst "
 "kontroller adressen igjen."
 
 #: templates/registration/activation_email.txt:1
@@ -124,15 +131,13 @@ msgid ""
 "and your address will be removed from our records.\n"
 "\n"
 "To activate this account, please click the following link within the next \n"
-"%(expiration_days)s days:\n"
+"%(expiration_days)s days:"
 msgstr ""
 
 #: templates/registration/activation_email.txt:12
+#: templates/registration/password_reset_email.html:13
 #, python-format
-msgid ""
-"\n"
-"Sincerely,\n"
-"%(site_name)s Management"
+msgid "The %(site_name)s team"
 msgstr ""
 
 #: templates/registration/activation_email_subject.txt:1
@@ -181,6 +186,8 @@ msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
+"Venligst oppgi ditt gamle passord av sikkerhetsgrunner. Oppgi deretter ditt "
+"nye passord to ganger, slik at vi kan kontrollere at det er korrekt."
 
 #: templates/registration/password_change_form.html:16
 msgid "Please correct the error below."
@@ -240,7 +247,7 @@ msgstr "Gjenta nytt passord:"
 msgid "Password reset unsuccessful"
 msgstr "Passordet ble ikke nullstilt"
 
-#: contrib/admin/templates/registration/password_reset_confirm.html:28
+#: templates/registration/password_reset_confirm.html:28
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
@@ -261,7 +268,6 @@ msgstr ""
 "Vi har sendt deg en e-post med instruksjoner for nullstilling av passord. Du "
 "bør motta den om kort tid."
 
-
 #: templates/registration/password_reset_email.html:2
 msgid "You're receiving this e-mail because you requested a password reset"
 msgstr ""
@@ -281,11 +287,6 @@ msgstr ""
 
 #: templates/registration/password_reset_email.html:11
 msgid "Thanks for using our site!"
-msgstr ""
-
-#: templates/registration/password_reset_email.html:13
-#, python-format
-msgid "The %(site_name)s team"
 msgstr ""
 
 #: templates/registration/password_reset_form.html:9
@@ -313,8 +314,9 @@ msgstr "Aktiveringsmail sendt"
 msgid ""
 "An activation email has been sent.  Please check your email and click on the "
 "link to activate your account."
-msgstr "Vi har sendt en e-post med aktiveringslink. Vennligst trykk på linken "
-"i e-posten for å aktivere din konto."
+msgstr ""
+"Vi har sendt en e-post med aktiveringslink. Vennligst trykk på linken i e-"
+"posten for å aktivere din konto."
 
 #: templates/registration/registration_form.html:4
 #: templates/registration/registration_form.html:7
