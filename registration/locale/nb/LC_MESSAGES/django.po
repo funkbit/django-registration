@@ -132,18 +132,22 @@ msgid ""
 "\n"
 "To activate this account, please click the following link within the next \n"
 "%(expiration_days)s days:"
-msgstr ""
+msgstr "Velkommen til %(site_name)s!\n"
+"\n"
+"Du har registrert en konto på %(site_name)s. For å aktivere kontoen din, "
+"vennligst klikk på denne linken innen %(expiration_days)s dager:"
+
 
 #: templates/registration/activation_email.txt:12
 #: templates/registration/password_reset_email.html:13
 #, python-format
 msgid "The %(site_name)s team"
-msgstr ""
+msgstr "%(site_name)s"
 
 #: templates/registration/activation_email_subject.txt:1
 #, python-format
 msgid "Activate your account at %(site_name)s"
-msgstr ""
+msgstr "Aktiver kontoen din på %(site_name)s"
 
 #: templates/registration/login.html:4 templates/registration/login.html:7
 #: templates/registration/login.html:35
